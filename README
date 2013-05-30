@@ -1,3 +1,13 @@
+This is fork for RedCloth version 4.1.9. 
+This release works with Ruby 2.0 and allows to avoid RedCloth error described in:
+http://jgarber.lighthouseapp.com/projects/13054-redcloth/tickets/263-wrong-output-with-unquoted-params
+due to commit
+https://github.com/jgarber/redcloth/commit/df84e47a44c5677457afb52992b319d15fdc2059
+
+To use it with Rails, please put the next line to your Gemfile:
+ gem "RedCloth", '4.1.9', :git => 'https://github.com/xsrgx/RedCloth'
+===================================================================================
+
 = RedCloth - Textile parser for Ruby
 
 Homepage::  http://redcloth.org
